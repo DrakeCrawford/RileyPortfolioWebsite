@@ -91,18 +91,48 @@
   }
 }
 
+
+
+
 .header-flex-container {
   display: flex;
   align-items: center;
   justify-content: start;
+  flex-direction: row; /* Explicitly define row direction */
 }
 
 .header-flex-container h1 {
   margin-right: 20px; /* Adjust spacing as needed */
 }
 
+.img-container {
+  display: none; /* Hide by default */
+}
 
+/* Responsive adjustment for smaller screens */
+@media (max-width: 768px) {
+  .header-flex-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
 
+  .header-flex-container h1 {
+      margin-right: 0;
+      margin-bottom: 20px; /* Space between name and image */
+  }
+
+  .img-container {
+      display: block; /* Show on smaller screens */
+  }
+}
+
+/* Make image visible on larger screens */
+@media (min-width: 769px) {
+  .img-container {
+      display: block; /* Ensure it's displayed */
+  }
+}
 
 
 
