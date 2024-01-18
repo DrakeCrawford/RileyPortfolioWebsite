@@ -11555,7 +11555,7 @@ html {
 }
 
 .bg-gradient-primary-to-secondary {
-  background: #000080; /* A fallback solid color, dark navy blue */
+  background: #000080; /* A fallback solid color, dark navy blue yes */
   background: linear-gradient(135deg, #000080 0%, #4169E1 100%);
 }
 
