@@ -73,8 +73,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #bd5d38;
-  --bs-link-hover-color: #974a2d;
+  --bs-link-color: #144ecc;
+  --bs-link-hover-color: #003da8;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
@@ -92,6 +92,21 @@
 }
 
 
+
+
+.vote-button {
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text */
+  padding: 10px 20px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+  border-radius: 5px; /* Optional: rounds the corners of the button */
+  display: inline-block; /* Allows padding and height to be set */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.vote-button:hover {
+  background-color: #0056b3; /* Slightly darker blue on hover */
+}
 
 
 .header-flex-container {
