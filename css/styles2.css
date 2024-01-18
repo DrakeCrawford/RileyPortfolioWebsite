@@ -91,6 +91,21 @@
   }
 }
 
+.header-flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.header-flex-container h1 {
+  margin-right: 20px; /* Adjust spacing as needed */
+}
+
+
+
+
+
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
