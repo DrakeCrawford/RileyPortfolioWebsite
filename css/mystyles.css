@@ -16,3 +16,55 @@
 .learn-more-btn:hover {
     background-color: #19339a;
 }
+
+header.masthead h1, header.masthead .h1, header.masthead h5 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Dark shadow for contrast */
+}
+
+/* Card container styling */
+.features-icons-item {
+    background-color: #fff; /* Add a white background for each card */
+    border-radius: 10px; /* Rounds the corners of the card */
+    padding: 20px; /* Adds some space inside the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adds a hover effect */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: space-between;
+    height: 100%; /* Ensures cards take full height available */
+}
+
+/* Hover effect to make it interactive */
+.features-icons-item:hover {
+    transform: translateY(-10px); /* Slight lift on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+/* Image styling with rounded corners and consistent height */
+.features-icons-item img {
+    border-radius: 10px; /* Rounds the top corners of the image */
+    width: 100%; /* Ensures the image spans the entire width */
+    height: 200px; /* Set a fixed height for all images */
+    object-fit: cover; /* Ensures the image covers the area while maintaining aspect ratio */
+}
+
+/* Title and text adjustments with consistent height */
+.features-icons-item h3 {
+    font-weight: bold;
+    margin-top: 15px;
+    min-height: 60px; /* Ensures all titles have the same height */
+    display: flex;
+    align-items: center; /* Vertically centers the text if it's shorter */
+    justify-content: center;
+    text-align: center;
+}
+
+.features-icons-item p {
+    color: #6c757d; /* Slightly muted text color for description */
+}
+
+/* Ensure all cards have the same height */
+.features-icons .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
