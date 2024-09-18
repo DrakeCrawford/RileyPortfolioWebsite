@@ -5,8 +5,8 @@ from flask import Flask, request, jsonify, send_from_directory
 app = Flask(__name__)
 
 # Your Spotify client ID and client secret
-client_id = '879320ab20e547999b22bf3fc9e59d2f'
-client_secret = '5d330e1d55f946e88c9d8a39aeef8847'
+client_id = 'INSERT_ID_HERE'
+client_secret = 'INSERT_SECRET_HERE'
 
 # Step 1: Get Access Token using Client Credentials Flow
 def get_access_token(client_id, client_secret):
