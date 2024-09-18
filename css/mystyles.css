@@ -68,3 +68,9 @@ header.masthead h1, header.masthead .h1, header.masthead h5 {
     flex-wrap: wrap;
 }
 
+.testimonial-item img {
+    border-radius: 50%; /* Makes the image circular */
+    width: 100px; /* Fixed width */
+    height: 100px; /* Fixed height */
+    object-fit: cover; /* Ensures the image maintains its aspect ratio */
+  }
